@@ -1,0 +1,14 @@
+WebContent/
+chromedriver.log
+target
+screenshot
+build
+.DS_Store
+release.properties
+*.sw?
+*~
+test-output
+.nfs*
+filewriter.txt
+.idea/
+

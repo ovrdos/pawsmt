@@ -1,0 +1,47 @@
+# git bash, by default, will prompt the user to set this option at install time:
+# "Checkout Windows-style, commit Unix-style line endings" 
+# which corresponds to: git config --global core.autocrlf true
+# this setting mimics that:
+
+* text=auto
+
+# some suggest setting core.autocrlf to false and core.whitespace cr-at-eol
+# that would result in git not managing the line endings, and ignoring them in diffs.
+# I spuriously set this, attempting to make all files always be lf everywhere:
+# * text eol=lf
+# http://timclem.wordpress.com/2012/03/01/mind-the-end-of-your-line/
+
+# These files are definitely text, and will have line endings converted on commit and checkout:
+*.java text
+*.js text
+*.template text
+*.css text
+*.ignore text
+*.pl text
+*.sh text
+*.script text
+*.sql text
+*.prefs text
+*.xml text
+*.MF text
+*.properties text
+*.conf text
+*.txt text
+
+# binary files:
+chromedriver_mac_23.0.12.1240.0 binary
+chromedriver_linux32_26.0.1383 binary
+chromedriver_linux64_26.0.1383 binary
+chromedriver_linux_23.0.12.1240.0 binary
+chromedriver_mac_26.0.1383 binary
+*.exe binary
+*.jar binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.eot binary
+*.svg binary
+*.ttf binary
+*.otf binary
+*.woff binary
