@@ -1,0 +1,29 @@
+{
+  "name": "tmswap",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "expresso"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ovrdos/pawsmt"
+  },
+  "author": "ovrdos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovrdos/pawsmt/issues"
+  },
+  "scripts": {
+    "test": "expresso"
+  },
+  "engines": {
+    "node": ">= 0.4.7 < 0.5.0"
+  },
+  "dependencies": {
+    "express": ">= 2.0.0 < 3.0.0",
+    "jade": "*"
+  },  
+  "homepage": "https://github.com/ovrdos/pawsmt"
+}
