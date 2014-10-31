@@ -1,4 +1,4 @@
-body {
+body, html {
 	padding: 50px;
 	font: 10px "Lucida Grande", Arial, sans-serif;
 	background-color: #F17220;
@@ -6,33 +6,49 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center 200px;
-	
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
 }
 
 a {
-	color: #00B7FF;
+	color: #000;
+	text-decoration: none;
 }
 
-#search {
+div#content {
+	width: 100%;
+	margin: 0 auto;
 	text-align: center;
-	width: 80%;
-	height: 70px;
+}
+
+input#search {
+	text-align: center;
 	font-size: 3.5em;
 	border-radius: 8px;
 	border: 0px;
-	align-self:center;
+	margin-bottom: 12px;
+}
+
+#search:focus {
+	outline: 0;
 }
 
 .result {
-	width: 80%;
-	height: 60px;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
-	border: 0px solid #999900;
+	width: 59%;
+	height: 40px;
+	border: 1px solid #000;
+	border-top: 0px;
 	background-color: #FFFFFF;
-	
 	padding: 8px;
-	spacing: 2px;
 	font: 12px "Lucida Grande", Arial, sans-serif;
+}
+
+div#results {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+div#results >:first-child {
+	border-top: 1px solid #000;
 }
