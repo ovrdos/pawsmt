@@ -15,23 +15,29 @@ public class StepDefs {
 	@When("^I open the tmswap app$")
 	public void i_open_the_tmswap_app() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-
+		
 	}
 	
-	@When("^I select \"(.*?)\"$")
-	public void i_select(String txtLabel) throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    
-	}
-
-	@Then("^I should see a list of tickets$")
-	public void i_should_see_a_list_of_tickets() throws Throwable {
+	@When("^I select post ticket offer$")
+	public void i_select_post_ticket_offer() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 
 	}
 
-	@Then("^I should see a search field$")
-	public void i_should_see_a_search_field() throws Throwable {
+	@When("^I scan a ticket$")
+	public void i_scan_a_ticket() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+
+	}
+
+	@When("^I choose a quantity$")
+	public void i_choose_a_quantity() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+
+	}
+
+	@Then("^I should successfully post a ticket offer for swap$")
+	public void i_should_successfully_post_a_ticket_offer_for_swap() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 
 	}
