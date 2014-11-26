@@ -1,6 +1,7 @@
 WebContent/
 chromedriver.log
 target
+node_modules
 screenshot
 build
 .DS_Store
